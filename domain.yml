@@ -5,6 +5,20 @@ intents:
   - mood_deny
   - mood_great
   - mood_unhappy
+  - vnc_setup
+  - fex_commit
+  - service_dependency
+  - db_full_error
+  - lab_case
+  - 64_bit_compiler_warnings
+  - password_recovery
+  - snmp_debugging
+  - pss_dump
+  - xdm_servers
+  - sanity_submission
+  - core_debug
+  - safec
+  - bat_commit
 
 responses:
   utter_greet:
@@ -27,6 +41,57 @@ responses:
 
   utter_goodbye:
     - text: "Bye"
+  utter_vnc_setup:
+  - text: 'Starting a new VNC session \ 1. In Mac terminal, ssh bgl-xdm-016 \ 2. Then,  vncserver
+      -geometry 1440x900 \ 3. Then , copy the IP address provided in the vnc app.
+      \ '
+  utter_fex_commit:
+  - text: 'Please visit wiki page : https://wiki.cisco.com/display/DC3SW/N9k+fex+image+build+and+integration+with+n9k'
+  utter_service_dependency:
+  - text: TBD
+  utter_db_full_error:
+  - text: 'Please visit : https://wiki.cisco.com/pages/viewpage.action?pageId=25200688'
+  utter_lab_case:
+  - text: Please visit the given link and open a new case.https://toolbox.cisco.com
+  utter_64_bit_compiler_warnings:
+  - text: 'Please visit wiki page : https://wiki.cisco.com/display/DCRL/Fixing+64+bit+compiler+errors+by+Comp+Owners
+      \ https://wiki.cisco.com/display/DCRL/64+Bit+Trouble+Areas \ https://wiki.cisco.com/pages/viewpage.action?pageId=657469743
+      \ https://wiki.cisco.com/display/NEXUS9K/64-bit+event+sequence+changes \ '
+  utter_password_recovery:
+  - text: 'Password Recovery \ o    Go to loader prompt , run "cmdline recoverymode=1"
+      \ o    Boot the image. \ o.   write erase \ o    Run "load-nxos" \ '
+  utter_snmp_debugging:
+  - text: TBD
+  utter_pss_dump:
+  - text: 'PSS Dump \ Run bash sudo su \ pss2dump -u nonvolatile:/dev/shm/rscn_pending_rscn
+      -> for PSS1 \ pss2dump -u volatile:/dev/shm/rscn_pending_rscn \ pss2dump -u
+      volatile:/dev/shm/rscn_vsan_info \ pss2dump -u volatile:/dev/shm/rscn_running_cfg
+      \ Look up PSS list \ show system internal pss kernel list \ show system internal
+      pss kernel list | grep fdmi \ '
+  utter_xdm_servers:
+  - text: 'Please visit : http://wwwin-ehs.cisco.com/reports/services/xdm/xdm.shtml#BANGALORE'
+  utter_sanity_submission:
+  - text: 'For eth sanities, please visit : http://nxossanity.cisco.com/dashboard
+      \ For fcoe sanities, please visit : https://wiki.cisco.com/display/STORAGE/How+to+Submit+Sanity
+      \ FCoE Sanity Submission sample : /auto/n9k-fcoe-blr/submit-n9k-fcoe-commit-sanities
+      --release <release> --path <image_path> \ '
+  utter_core_debug:
+  - text: 'Steps to debug a core dump \ 1. run bash sudo su \ 2. cd /logflash/core
+      \ 3. ls | grep <core pid> \ 4. tar xvzf core.tar.gz \ 5. gunzip core.gz \ 6.
+      gdb /isan/bin/<process> <process_core> \ 7. bt \ '
+  utter_safec:
+  - text: 'Add this in module.mk \ $(BLDGRP_BLD_DIR)/% :  EXTRA_INCLUDES := -I $(TOP_DIR)/utils/safeC/include
+      \ Add this lib along with other libs in the module.mk \ (libsafec_libpath) \
+      Include the following header files in the file having the safec changes. \ #include
+      "safe_str_lib.h" \ #include "safe_types.h" \ #include "safe_mem_lib.h" \ '
+  utter_bat_commit:
+  - text: 'Trigger BAT Commit with different options \ /auto/ins_tools/dev/bat/bat
+      --submit --bugid <bug_id> \ /auto/ins_tools/dev/bat/bat --submit --bugid <bug_id>
+      --build_only \ /auto/ins_tools/dev/bat/bat --submit --bugid <bug_id> --ci_tag
+      <label> \ For a third-party commit, please use --comp option to specify the
+      components to commit \ /auto/ins_tools/dev/bat/bat --submit --bugid <bug_id>
+      --comp <comp1>,<comp2>,..... \ For more info, please visit: https://wiki.cisco.com/display/DEVXTOOLS/BAT+Commit+Integration+Process
+      \ '
 
 actions:
   - utter_greet
