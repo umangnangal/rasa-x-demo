@@ -46,11 +46,11 @@ responses:
   utter_fex_commit:
   - text: 'Please visit wiki page : https://wiki.cisco.com/display/DC3SW/N9k+fex+image+build+and+integration+with+n9k'
   utter_service_dependency:
-  - text: TBD
+  - text: 'TBD'
   utter_db_full_error:
   - text: 'Please visit : https://wiki.cisco.com/pages/viewpage.action?pageId=25200688'
   utter_lab_case:
-  - text: Please visit the given link and open a new case.https://toolbox.cisco.com
+  - text: 'Please visit the given link and open a new case.https://toolbox.cisco.com'
   utter_64_bit_compiler_warnings:
   - text: 'Please visit wiki page : https://wiki.cisco.com/display/DCRL/Fixing+64+bit+compiler+errors+by+Comp+Owners
       \ https://wiki.cisco.com/display/DCRL/64+Bit+Trouble+Areas \ https://wiki.cisco.com/pages/viewpage.action?pageId=657469743
