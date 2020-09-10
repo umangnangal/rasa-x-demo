@@ -25,11 +25,11 @@
   - utter_service_dependency
 * core_debug
   - utter_core_debug
+  - utter_did_that_help
 * 64_bit_compiler_warnings
   - utter_64_bit_compiler_warnings
 * lab_case
   - utter_lab_case
-
 
 ## sad path 1               <!-- this is already the start of the next story -->
 * greet

@@ -96,3 +96,17 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_vnc_setup
+- utter_fex_commit
+- utter_service_dependency
+- utter_db_full_error
+- utter_lab_case
+- utter_64_bit_compiler_warnings
+- utter_password_recovery
+- utter_snmp_debugging
+- utter_pss_dump
+- utter_xdm_servers
+- utter_sanity_submission
+- utter_core_debug
+- utter_safec
+- utter_bat_commit
