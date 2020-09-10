@@ -1,0 +1,883 @@
+{
+  "intents": [
+    {
+      "intent": "64_bit_compiler_warnings",
+      "examples": [
+        {
+          "text": "64 bit compiler warnings common fixes"
+        },
+        {
+          "text": "64 bit warnings"
+        },
+        {
+          "text": "Common 64 bit compiler warning fixes"
+        },
+        {
+          "text": "How to fix common 64 bit compiler warnings"
+        }
+      ],
+      "description": "Common 64 bit compiler warning fixes"
+    },
+    {
+      "intent": "bat_commit",
+      "examples": [
+        {
+          "text": "Do a BAT commit"
+        },
+        {
+          "text": "Do a Codenet Commit"
+        },
+        {
+          "text": "How to commit using BAT"
+        },
+        {
+          "text": "How to commit using BAT with a specified label"
+        },
+        {
+          "text": "How to do a third party commit using BAT"
+        },
+        {
+          "text": "How to trigger a BAT commit."
+        },
+        {
+          "text": "Start commit using BAT"
+        }
+      ],
+      "description": "Important commands to trigger a BAT Commit with different options"
+    },
+    {
+      "intent": "core_debug",
+      "examples": [
+        {
+          "text": "How to backtrace a core dump"
+        },
+        {
+          "text": "How to debug a core"
+        },
+        {
+          "text": "How to debug a core dump"
+        },
+        {
+          "text": "How to dump core and debug it using gdb"
+        }
+      ],
+      "description": "Steps to debug a core"
+    },
+    {
+      "intent": "db_full_error",
+      "examples": [
+        {
+          "text": "System directories getting filled up."
+        },
+        {
+          "text": "System non-volatile storage usage is unexpectedly high"
+        }
+      ],
+      "description": "Info on how to resolve Sysmgr DB errors"
+    },
+    {
+      "intent": "fex_commit",
+      "examples": [
+        {
+          "text": "Fex Commit procedure"
+        },
+        {
+          "text": "How to commit a FEX change"
+        },
+        {
+          "text": "What are the extra steps to do a FEX commit"
+        }
+      ],
+      "description": "Steps to perform a FEX Commit"
+    },
+    {
+      "intent": "lab_case",
+      "examples": [
+        {
+          "text": "get lab support"
+        },
+        {
+          "text": "How to create a lab support case?"
+        },
+        {
+          "text": "how to create a toolbox case"
+        },
+        {
+          "text": "link for raising a case for lab support"
+        }
+      ],
+      "description": "Opening a lab support case."
+    },
+    {
+      "intent": "password_recovery",
+      "examples": [
+        {
+          "text": "Forgot Password to log in"
+        },
+        {
+          "text": "forgot password, unable to log in"
+        },
+        {
+          "text": "How to recover switch login password?"
+        },
+        {
+          "text": "Not able to log in into the switch"
+        },
+        {
+          "text": "Switch Password Recovery"
+        },
+        {
+          "text": "Unable to login into the switch"
+        }
+      ],
+      "description": "Switch Password Recovery"
+    },
+    {
+      "intent": "pss_dump",
+      "examples": [
+        {
+          "text": "How to dump the PSS data?"
+        },
+        {
+          "text": "Lookup PSS data"
+        },
+        {
+          "text": "PSS data"
+        },
+        {
+          "text": "PSS key"
+        },
+        {
+          "text": "PSS key value pairs"
+        },
+        {
+          "text": "Restore using PSS"
+        },
+        {
+          "text": "Store in PSS"
+        }
+      ],
+      "description": "Dump the PSS data to debug PSS related issues."
+    },
+    {
+      "intent": "safec",
+      "examples": [
+        {
+          "text": "How to fix SafeC issues"
+        },
+        {
+          "text": "How to resolve SafeC SA Warning"
+        },
+        {
+          "text": "Resolve SafeC SA issues"
+        },
+        {
+          "text": "safec"
+        },
+        {
+          "text": "safec warnings"
+        },
+        {
+          "text": "what has to be included for strncat_s to work"
+        },
+        {
+          "text": "what has to be included for strncpy_s to work"
+        }
+      ],
+      "description": "Steps to resolve SafeC SA Warnings"
+    },
+    {
+      "intent": "sanity_submission",
+      "examples": [
+        {
+          "text": "how to submit a sanity"
+        },
+        {
+          "text": "how to trigger eth sanities"
+        },
+        {
+          "text": "How to trigger fcoe sanity"
+        }
+      ],
+      "description": "Steps to submit sanity"
+    },
+    {
+      "intent": "service_dependency",
+      "examples": [
+        {
+          "text": "how one service relies on another service"
+        },
+        {
+          "text": "how to get the dependency tree for a service"
+        },
+        {
+          "text": "i want to know the service dependency"
+        },
+        {
+          "text": "Service Dependency"
+        },
+        {
+          "text": "Service Dependency Tree"
+        },
+        {
+          "text": "Which service comes up first"
+        }
+      ],
+      "description": "How to get the service dependency tree for all the services running."
+    },
+    {
+      "intent": "snmp_debugging",
+      "examples": [
+        {
+          "text": "How to do SNMP walk"
+        },
+        {
+          "text": "How to start with a SNMP bug"
+        },
+        {
+          "text": "How to tackle amn SNMP related bug"
+        },
+        {
+          "text": "SNMP Debugging"
+        },
+        {
+          "text": "What are the steps for SNMP related issues"
+        }
+      ],
+      "description": "Steps for SNMP Debugging"
+    },
+    {
+      "intent": "vnc_setup",
+      "examples": [
+        {
+          "text": "create a new vnc session"
+        },
+        {
+          "text": "How to setup VNC to access ADS"
+        },
+        {
+          "text": "remote login to ADS using vnc"
+        },
+        {
+          "text": "use vnc to login into ADS"
+        },
+        {
+          "text": "using vnc to access ADS"
+        },
+        {
+          "text": "vnc setup"
+        }
+      ],
+      "description": "Setup VNC environment to access your ADS."
+    },
+    {
+      "intent": "xdm_servers",
+      "examples": [
+        {
+          "text": "bgl xdm list"
+        },
+        {
+          "text": "list of XDM servers available"
+        },
+        {
+          "text": "Where to get the available XDM servers list"
+        },
+        {
+          "text": "xdm"
+        },
+        {
+          "text": "xdm list"
+        },
+        {
+          "text": "XDM servers"
+        },
+        {
+          "text": "XDM servers list"
+        }
+      ],
+      "description": "List down XDM servers for Bangalore site"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "eth_sanity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "eth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ethernet sanity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eth sanity",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fcoe_sanity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fcoe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fcoe sanity",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Please visit wiki page : https://wiki.cisco.com/display/DC3SW/Debugging+Assistant+Bot\nEnter your unanswered query in the table provided. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1596688491983",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please specify if you need help with ethernet or fcoe sanity requests."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1596691916812",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1596989091235",
+      "previous_sibling": "slot_8_1596991307425"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please specify sanity type"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1596991269172",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1596991269175",
+      "previous_sibling": "handler_3_1596991269175"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please specify sanity type"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1596991307425",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1596991307427",
+      "previous_sibling": "handler_7_1596991307427"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1596991269172",
+      "context": {
+        "eth_sanity": "@eth_sanity"
+      },
+      "conditions": "@eth_sanity",
+      "event_name": "input",
+      "dialog_node": "handler_3_1596991269175"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "For fcoe sanities, please visit : https://wiki.cisco.com/display/STORAGE/How+to+Submit+Sanity FCoE Sanity Submission sample : /auto/n9k-fcoe-blr/submit-n9k-fcoe-commit-sanities --release <release> --path <image_path>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1596991307425",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "@fcoe_sanity",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1596991396853",
+      "previous_sibling": "handler_1_1596991307427"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For eth sanities, please visit : http://nxossanity.cisco.com/dashboard"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1596991269172",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "@eth_sanity",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1596991346583",
+      "previous_sibling": "handler_1_1596991269175"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1596991307425",
+      "context": {
+        "fcoe_sanity": "@fcoe_sanity"
+      },
+      "conditions": "@fcoe_sanity",
+      "event_name": "input",
+      "dialog_node": "handler_7_1596991307427"
+    },
+    {
+      "type": "standard",
+      "title": "FEX Commit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit wiki page : https://wiki.cisco.com/display/DC3SW/N9k+fex+image+build+and+integration+with+n9k"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fex_commit",
+      "dialog_node": "node_2_1596689088625",
+      "previous_sibling": "node_6_1596689255074"
+    },
+    {
+      "type": "standard",
+      "title": "SYSMGR DB Errors",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit : https://wiki.cisco.com/pages/viewpage.action?pageId=25200688"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#db_full_error",
+      "dialog_node": "node_2_1598352530347",
+      "previous_sibling": "node_9_1598505665055"
+    },
+    {
+      "type": "standard",
+      "title": "Password Recovery",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Password Recovery\no    Go to loader prompt , run \"cmdline recoverymode=1\"\no    Boot the image. \no.   write erase\no    Run \"load-nxos\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#password_recovery",
+      "dialog_node": "node_4_1590486889216",
+      "previous_sibling": "node_7_1590579441831"
+    },
+    {
+      "type": "standard",
+      "title": "SNMP Debugging",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For any SNMP / DCNM issue , below is few steps for debugging .\n1. Enable snmp logs on switch , “deb logfile snmp” , “deb snmp all”\n2. Trigger the DCNM or SNMP cmd and capture the above logs\n3. This will give an idea of what backend functions are getting triggered. “header_* () “ this is the function in the corresponding snmp lib that gets invoked. Which would then trigger some MTS to the actual process ( similar to CLI) to get or set the values.\n4. Try to narrow down the OID ( object Identifier) which is of problem. Either from the above logs or if bug has mentioned the same,\n\t( You can get the OIDs from https://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseOID.do?\tlocal=en&translate=Translate&objectInput=1.3.6.1.4.1.9.9.276.1.1.3.1.2#oidContent )\n5. Then you can debug by doing set/get on only that OID. To do this log to any server which support SNMP .\no   ( ssh root@10.127.125.125 , password nbv_12345)  and then execute snmpwalk -v 2c -c public < switch ip > <OID>\n6. Also check if same thing works in MDS , if yes then comparing logs in both case may help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#snmp_debugging",
+      "dialog_node": "node_4_1592383245031",
+      "previous_sibling": "node_5_1590474138552"
+    },
+    {
+      "type": "standard",
+      "title": "Service Dependency",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Service Dependency helps us to know how different services are dependent on each other. This may help to debug timing issues. Refer to this example :\numang-homewood# sh system internal sysmgr service dependency srvname fdmi\n          \"fdmi\"\n           |_______ \"rib\"\n                     |_______ \"vsan\"\n                     |_______ \"fcfwd\"\n           |_______ \"port\"\n                     |_______ \"vsan\"\n                     |_______ \"wwn\"\n                     |_______ \"port-channel\"\n                               |_______ \"epp\"\n                                         |_______ \"vsan\"\n                                         |_______ \"wwn\"\n                     |_______ \"port-resources\"\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#service_dependency",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1590474138552",
+      "previous_sibling": "node_6_1590482895934"
+    },
+    {
+      "type": "standard",
+      "title": "SAFEC SA Warning",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Add this in module.mk\n$(BLDGRP_BLD_DIR)/% :  EXTRA_INCLUDES := -I $(TOP_DIR)/utils/safeC/include\n\nAdd this lib along with other libs in the module.mk\n(libsafec_libpath)\n\nInclude the following header files in the file having the safec changes.\n#include \"safe_str_lib.h\"\n#include \"safe_types.h\"\n#include \"safe_mem_lib.h\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#safec",
+      "dialog_node": "node_5_1592383617297",
+      "previous_sibling": "node_4_1590486889216"
+    },
+    {
+      "type": "standard",
+      "title": "PSS Dump",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "PSS Dump\nRun bash sudo su\npss2dump -u nonvolatile:/dev/shm/rscn_pending_rscn -> for PSS1\npss2dump -u volatile:/dev/shm/rscn_pending_rscn\npss2dump -u volatile:/dev/shm/rscn_vsan_info\npss2dump -u volatile:/dev/shm/rscn_running_cfg\n\nLook up PSS list\nshow system internal pss kernel list\nshow system internal pss kernel list | grep fdmi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#pss_dump",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1590482895934",
+      "previous_sibling": "node_5_1592383617297"
+    },
+    {
+      "type": "standard",
+      "title": "64 bit Compiler Warnings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit wiki page : https://wiki.cisco.com/display/DCRL/Fixing+64+bit+compiler+errors+by+Comp+Owners\nhttps://wiki.cisco.com/display/DCRL/64+Bit+Trouble+Areas\nhttps://wiki.cisco.com/pages/viewpage.action?pageId=657469743\nhttps://wiki.cisco.com/display/NEXUS9K/64-bit+event+sequence+changes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#64_bit_compiler_warnings",
+      "dialog_node": "node_6_1596689255074",
+      "previous_sibling": "node_7_1596691126819"
+    },
+    {
+      "type": "frame",
+      "title": "Sanity Submission",
+      "output": {
+        "generic": []
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#sanity_submission",
+      "dialog_node": "node_6_1596691916812",
+      "previous_sibling": "node_8_1597123555228"
+    },
+    {
+      "type": "standard",
+      "title": "VNC Setup",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Starting a new VNC session\n1. In Mac terminal, ssh bgl-xdm-016\n2. Then,  vncserver -geometry 1440x900\n3. Then , copy the IP address provided in the vnc app."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#vnc_setup",
+      "dialog_node": "node_7_1590579441831",
+      "previous_sibling": "node_2_1596689088625"
+    },
+    {
+      "type": "standard",
+      "title": "BAT Commit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Trigger BAT Commit with different options\n\n/auto/ins_tools/dev/bat/bat --submit --bugid <bug_id>\n/auto/ins_tools/dev/bat/bat --submit --bugid <bug_id> --build_only\n/auto/ins_tools/dev/bat/bat --submit --bugid <bug_id> --ci_tag <label>\n\nFor a third-party commit, please use --comp option to specify the components to commit\n/auto/ins_tools/dev/bat/bat --submit --bugid <bug_id> --comp <comp1>,<comp2>,.....\n\nFor more info, please visit:\nhttps://wiki.cisco.com/display/DEVXTOOLS/BAT+Commit+Integration+Process\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bat_commit",
+      "dialog_node": "node_7_1596688491983",
+      "previous_sibling": "node_4_1592383245031"
+    },
+    {
+      "type": "standard",
+      "title": "Core Debugging",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Steps to debug a core dump\n\n1. run bash sudo su\n2. cd /logflash/core\n3. ls | grep <core pid>\n4. tar xvzf core.tar.gz\n5. gunzip core.gz\n6. gdb /isan/bin/<process> <process_core>\n7. bt"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#core_debug",
+      "dialog_node": "node_7_1596691126819",
+      "previous_sibling": "node_6_1596691916812"
+    },
+    {
+      "type": "standard",
+      "title": "Lab Support",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit the given link and open a new case.https://toolbox.cisco.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "Date": "$date"
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#lab_case",
+      "dialog_node": "node_8_1597123555228",
+      "previous_sibling": "node_2_1598352530347"
+    },
+    {
+      "type": "standard",
+      "title": "XDM Servers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit : http://wwwin-ehs.cisco.com/reports/services/xdm/xdm.shtml#BANGALORE"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#xdm_servers",
+      "dialog_node": "node_9_1598505665055",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit the given link and open a new case.https://toolbox.cisco.com/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1597123555228",
+      "disabled": true,
+      "conditions": "#lab_case",
+      "dialog_node": "response_7_1597123806460"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1596691916812",
+      "variable": "$eth_sanity",
+      "dialog_node": "slot_6_1596991269172"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1596691916812",
+      "variable": "$fcoe_sanity",
+      "dialog_node": "slot_8_1596991307425",
+      "previous_sibling": "slot_6_1596991269172"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "auto_learn": {
+      "apply": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
